@@ -1,0 +1,30 @@
+.chat-float-btn {
+  width: 241px;
+  background-color: #ffcf08;
+  border-radius: 24px;
+
+  .ant-float-btn-body {
+    background-color: transparent;
+  }
+
+  .description {
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-right: 8px;
+      text-align: right;
+    }
+  }
+
+  .vertical-divider {
+    height: 32px;
+    width: 1px;
+    border: 1px solid #1d1d1d4d;
+    margin-right: 8px;
+  }
+
+  svg {
+    margin-right: 10px;
+  }
+}

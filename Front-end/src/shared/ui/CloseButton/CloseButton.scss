@@ -1,0 +1,14 @@
+.close-btn {
+  border: none;
+  padding: 0;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+
+  svg path {
+    fill: #747474;
+  }
+}

@@ -1,0 +1,20 @@
+.date-space {
+  width: 100%;
+
+  .tag-info-container {
+    max-height: 130px;
+    overflow-y: auto;
+  }
+
+  .custom-calendar {
+    margin-top: 12px;
+  }
+
+  .calendar-info-container {
+    margin-top: 20px;
+  }
+
+  .calendar-info-container h5 {
+    margin-top: 4px;
+  }
+}

@@ -1,0 +1,15 @@
+.next-submit-input-container {
+  margin-top: 12px;
+  display: flex;
+
+  .ant-input {
+    margin-right: 5px;
+    border-radius: 12px;
+  }
+
+  .submit-btn {
+    border-radius: 12px;
+    width: 48px;
+    height: 48px;
+  }
+}

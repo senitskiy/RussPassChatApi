@@ -1,0 +1,63 @@
+.concern-tag {
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px #ffeb99 solid;
+  background-color: #fff5cc;
+  padding: 3px 8px;
+  cursor: pointer;
+  display: block;
+
+  &.ant-tag-processing {
+    color: black;
+    background-color: #ffeb99;
+    border-color: #e5b900;
+  }
+}
+
+.concern-form-space {
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+  h4 {
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+  }
+
+  h5 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #74747499;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .concern-form-space {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.divider {
+  background-color: #ebebeb;
+  height: 1px;
+}
+
+.go-back-link {
+  margin-top: 8px;
+  cursor: pointer;
+  text-decoration: underline;
+  width: 70px;
+  margin-bottom: 20px;
+}

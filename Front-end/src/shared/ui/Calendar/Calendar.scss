@@ -1,0 +1,65 @@
+.custom-calendar {
+  max-width: 288px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 30px 0px #94949440;
+  padding: 16px;
+
+  thead tr th:nth-child(6),
+  thead tr th:nth-child(7) {
+    color: #cca500;
+  }
+
+  .ant-select {
+    border: none;
+  }
+
+  .ant-picker-date-panel .ant-picker-body {
+    padding-bottom: 0;
+  }
+
+  .ant-select .ant-select-selector {
+    width: 100px;
+    border: none;
+  }
+
+  .ant-picker-panel {
+    border-top: none;
+  }
+
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .prev-month-btn {
+    padding: 0;
+    border: none;
+    width: 32px;
+  }
+
+  .next-month-btn {
+    padding: 0;
+    width: 32px;
+    border: none;
+    border-color: #fff5cc;
+  }
+
+  .ant-picker-cell .ant-picker-cell-inner {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ant-picker-cell-in-view.ant-picker-cell-selected:not(.ant-picker-cell-disabled)
+    .ant-picker-cell-inner {
+    background-color: #ffcf08;
+    color: black;
+  }
+
+  .ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before {
+    content: none;
+  }
+}
